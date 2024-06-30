@@ -5,9 +5,11 @@ VisualStudioVersion = 17.10.35013.160
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleApp.OutPutDemo", "ConsoleApp.OutPutDemo\ConsoleApp.OutPutDemo.csproj", "{1C56BE8D-A44D-4B49-A18F-0E8CEE83A89E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp.Varaibles.Demo", "ConsoleApp.Varaibles.Demo\ConsoleApp.Varaibles.Demo.csproj", "{CDBB0F90-D8EE-48C7-A3AA-86BCC2585A70}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleApp.Varaibles.Demo", "ConsoleApp.Varaibles.Demo\ConsoleApp.Varaibles.Demo.csproj", "{CDBB0F90-D8EE-48C7-A3AA-86BCC2585A70}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp.UserInput.Demo", "ConsoleApp.UserInput.Demo\ConsoleApp.UserInput.Demo.csproj", "{0D683932-E6A3-4C8D-8AC4-BB84403EF0AD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleApp.UserInput.Demo", "ConsoleApp.UserInput.Demo\ConsoleApp.UserInput.Demo.csproj", "{0D683932-E6A3-4C8D-8AC4-BB84403EF0AD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp.Operators", "ConsoleApp.Operators\ConsoleApp.Operators.csproj", "{6261AC4E-84D9-4408-A8DF-2F6FF6EFF4E9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{0D683932-E6A3-4C8D-8AC4-BB84403EF0AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0D683932-E6A3-4C8D-8AC4-BB84403EF0AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0D683932-E6A3-4C8D-8AC4-BB84403EF0AD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6261AC4E-84D9-4408-A8DF-2F6FF6EFF4E9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6261AC4E-84D9-4408-A8DF-2F6FF6EFF4E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6261AC4E-84D9-4408-A8DF-2F6FF6EFF4E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6261AC4E-84D9-4408-A8DF-2F6FF6EFF4E9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
