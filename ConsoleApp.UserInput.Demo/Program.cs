@@ -1,30 +1,22 @@
-﻿//Declare varaibles
-
-using System.Xml.Linq;
-
-string firstName = string.Empty;
-string lastName = string.Empty;
+﻿//Declaring Varaibles
+string name = string.Empty;
 int age = 0;
 int retirementAge = 65;
 
+//Prompt the user for input
+Console.WriteLine("Enter your name:");
+name = Console.ReadLine();
 
-// User input 
-
-Console.WriteLine("What is your firstname?: ");
-firstName = Console.ReadLine();
-
-Console.WriteLine("What is your lastname?: ");
-lastName = Console.ReadLine();
-
-Console.WriteLine("How old are you? ");
+Console.WriteLine("Enter your age: ");
 age = Convert.ToInt32(Console.ReadLine());
 
-// Process
+//Process the Data
+int workingYearsRemaining = retirementAge - age;
 
-int workingyearsRemaining = age - retirementAge;
+//Output results to the user
+Console.WriteLine($"Full Name {name}");
+Console.WriteLine($"Age {age}");
+Console.WriteLine($" working years remaining {workingYearsRemaining}");
 
-//The output
 
-Console.WriteLine($"Your fullname: {firstName} {lastName}");
-Console.WriteLine($"You are {age} years old");
-Console.WriteLine($"Retirement age is {retirementAge}");
+
